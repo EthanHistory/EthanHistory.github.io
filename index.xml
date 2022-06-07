@@ -9,7 +9,18 @@
       <link>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 19 May 2022 12:56:45 -0700</lastBuildDate><atom:link href="https://ethanhistory.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jun 2022 11:45:19 -0700</lastBuildDate><atom:link href="https://ethanhistory.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bit operations</title>
+      <link>https://ethanhistory.github.io/posts/bit-operations/</link>
+      <pubDate>Tue, 07 Jun 2022 11:45:19 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/bit-operations/</guid>
+      <description>Intro Bit operation is very easy concept so it is hard to forget what bit operations are there and how they are working. However, I forgot the notation of these operations in Python while solving some algorithm problems, which is the reason I am organizing this post.
+Bit operations in Python  x &amp;laquo; y
+Returns x with the bits shifted to the left by y places (and new bits on the right-hand-side are zeros).</description>
+    </item>
+    
     <item>
       <title>Tree Traversal</title>
       <link>https://ethanhistory.github.io/posts/tree-traversal/</link>
