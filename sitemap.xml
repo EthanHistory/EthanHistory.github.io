@@ -2,25 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ethanhistory.github.io/posts/bit-operations/</loc>
-    <lastmod>2022-06-07T11:45:19-07:00</lastmod>
-  </url><url>
     <loc>https://ethanhistory.github.io/</loc>
-    <lastmod>2022-06-07T11:45:19-07:00</lastmod>
+    <lastmod>2022-06-07T16:59:42-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/list_and_tuple/</loc>
+    <lastmod>2022-06-07T16:59:42-07:00</lastmod>
   </url><url>
     <loc>https://ethanhistory.github.io/posts/</loc>
-    <lastmod>2022-06-07T11:45:19-07:00</lastmod>
+    <lastmod>2022-06-07T16:59:42-07:00</lastmod>
   </url><url>
     <loc>https://ethanhistory.github.io/tags/python/</loc>
-    <lastmod>2022-06-07T11:45:19-07:00</lastmod>
+    <lastmod>2022-06-07T16:59:42-07:00</lastmod>
   </url><url>
     <loc>https://ethanhistory.github.io/tags/</loc>
+    <lastmod>2022-06-07T16:59:42-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/bit_operations/</loc>
     <lastmod>2022-06-07T11:45:19-07:00</lastmod>
   </url><url>
     <loc>https://ethanhistory.github.io/tags/algorithm/</loc>
     <lastmod>2022-05-19T12:56:45-07:00</lastmod>
   </url><url>
-    <loc>https://ethanhistory.github.io/posts/tree-traversal/</loc>
+    <loc>https://ethanhistory.github.io/posts/tree_traversal/</loc>
     <lastmod>2022-05-19T12:56:45-07:00</lastmod>
   </url><url>
     <loc>https://ethanhistory.github.io/archive/</loc>
