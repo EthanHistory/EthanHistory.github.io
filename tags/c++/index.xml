@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>C&#43;&#43; on EthanHistory</title>
+    <link>https://ethanhistory.github.io/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on EthanHistory</description>
+    <image>
+      <url>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 25 Sep 2022 12:17:55 -0700</lastBuildDate><atom:link href="https://ethanhistory.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pointer VS Reference</title>
+      <link>https://ethanhistory.github.io/posts/programming/pointer_vs_reference/</link>
+      <pubDate>Sun, 25 Sep 2022 12:17:55 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/programming/pointer_vs_reference/</guid>
+      <description>Intro I think &amp;ldquo;Pointer&amp;rdquo; would be one of the most complicate concepts when you start studying C++. Unlike python, explicitly managing the memory you use in your program is quite hard. Another thing that burden you and confuse you is the concept &amp;ldquo;Reference&amp;rdquo;. One can use it to explain &amp;ldquo;memory address of variable&amp;rdquo; as well but what I am talking about now is a special alias in C++. the usage of Pointer and Reference are so similar so that you can easily fall into taking them as the same concept.</description>
+    </item>
+    
+  </channel>
+</rss>

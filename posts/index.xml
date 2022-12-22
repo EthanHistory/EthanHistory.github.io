@@ -9,22 +9,42 @@
       <link>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Jun 2022 16:59:42 -0700</lastBuildDate><atom:link href="https://ethanhistory.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2022 00:25:58 -0800</lastBuildDate><atom:link href="https://ethanhistory.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RNN_cheatsheet</title>
+      <link>https://ethanhistory.github.io/posts/drafts/rnn_cheatsheet/</link>
+      <pubDate>Tue, 20 Dec 2022 00:25:58 -0800</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/drafts/rnn_cheatsheet/</guid>
+      <description>RNN structure (left) compact representation of RNN (right) unfolding version
+$$x_{i} : \text{i-th input, } o_i : \text{i-th label, } Net : \text{RNN block, } w_i : \text{i-th hidden state}$$
+What is RNN? RNN (Recurrent neural networks) is a class of ANN model designed for analyzing a sequence of input data. Due to the nature of recurrsive feedforward network where the previous input does influence the next hidden state value, RNN can theoratically exploit the previous context even far way from the current input in estimating output.</description>
+    </item>
+    
+    <item>
+      <title>Pointer VS Reference</title>
+      <link>https://ethanhistory.github.io/posts/programming/pointer_vs_reference/</link>
+      <pubDate>Sun, 25 Sep 2022 12:17:55 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/programming/pointer_vs_reference/</guid>
+      <description>Intro I think &amp;ldquo;Pointer&amp;rdquo; would be one of the most complicate concepts when you start studying C++. Unlike python, explicitly managing the memory you use in your program is quite hard. Another thing that burden you and confuse you is the concept &amp;ldquo;Reference&amp;rdquo;. One can use it to explain &amp;ldquo;memory address of variable&amp;rdquo; as well but what I am talking about now is a special alias in C++. the usage of Pointer and Reference are so similar so that you can easily fall into taking them as the same concept.</description>
+    </item>
+    
     <item>
       <title>List And Tuple</title>
-      <link>https://ethanhistory.github.io/posts/list_and_tuple/</link>
+      <link>https://ethanhistory.github.io/posts/programming/list_and_tuple/</link>
       <pubDate>Tue, 07 Jun 2022 16:59:42 -0700</pubDate>
       
-      <guid>https://ethanhistory.github.io/posts/list_and_tuple/</guid>
+      <guid>https://ethanhistory.github.io/posts/programming/list_and_tuple/</guid>
       <description>Intro There are few primitive types, and lots of build-in types. However, only few types are frequently used in practice. It might be because other types only can be used in special cases but it is also true that I don&amp;rsquo;t know how and when to use them correctly. Tuple is one of such cases. When I code with Python, mostly I use List to contain sequenal values and objects, but there have been few cases when I used Tuple.</description>
     </item>
     
     <item>
       <title>Bit Operations</title>
-      <link>https://ethanhistory.github.io/posts/bit_operations/</link>
+      <link>https://ethanhistory.github.io/posts/programming/bit_operations/</link>
       <pubDate>Tue, 07 Jun 2022 11:45:19 -0700</pubDate>
       
-      <guid>https://ethanhistory.github.io/posts/bit_operations/</guid>
+      <guid>https://ethanhistory.github.io/posts/programming/bit_operations/</guid>
       <description>Intro Bit operation is very easy concept so it is hard to forget what bit operations are there and how they are working. However, I forgot the notation of these operations in Python while solving some algorithm problems, which is the reason I am organizing this post.
 Bit operations in Python  x &amp;laquo; y
 Returns x with the bits shifted to the left by y places (and new bits on the right-hand-side are zeros).</description>
@@ -32,10 +52,10 @@ Returns x with the bits shifted to the left by y places (and new bits on the rig
     
     <item>
       <title>Tree Traversal</title>
-      <link>https://ethanhistory.github.io/posts/tree_traversal/</link>
+      <link>https://ethanhistory.github.io/posts/programming/tree_traversal/</link>
       <pubDate>Thu, 19 May 2022 12:56:45 -0700</pubDate>
       
-      <guid>https://ethanhistory.github.io/posts/tree_traversal/</guid>
+      <guid>https://ethanhistory.github.io/posts/programming/tree_traversal/</guid>
       <description>What is tree traversal? Traversal is examining all the nodes/records/units in a data structure. Unlike linear data structures (Array, Linked List, Queues, Stacks, etc) which have only one logical way, maybe two ways (forward, backward), Tree can be traversed in several ways. Each traversal method is different in term of their order of examining each node in a tree but the common property of tree traversal is they all are able to be defined recursively.</description>
     </item>
     

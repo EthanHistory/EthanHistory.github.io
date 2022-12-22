@@ -12,10 +12,10 @@
     <lastBuildDate>Thu, 19 May 2022 12:56:45 -0700</lastBuildDate><atom:link href="https://ethanhistory.github.io/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tree Traversal</title>
-      <link>https://ethanhistory.github.io/posts/tree_traversal/</link>
+      <link>https://ethanhistory.github.io/posts/programming/tree_traversal/</link>
       <pubDate>Thu, 19 May 2022 12:56:45 -0700</pubDate>
       
-      <guid>https://ethanhistory.github.io/posts/tree_traversal/</guid>
+      <guid>https://ethanhistory.github.io/posts/programming/tree_traversal/</guid>
       <description>What is tree traversal? Traversal is examining all the nodes/records/units in a data structure. Unlike linear data structures (Array, Linked List, Queues, Stacks, etc) which have only one logical way, maybe two ways (forward, backward), Tree can be traversed in several ways. Each traversal method is different in term of their order of examining each node in a tree but the common property of tree traversal is they all are able to be defined recursively.</description>
     </item>
     

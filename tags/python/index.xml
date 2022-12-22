@@ -12,19 +12,19 @@
     <lastBuildDate>Tue, 07 Jun 2022 16:59:42 -0700</lastBuildDate><atom:link href="https://ethanhistory.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List And Tuple</title>
-      <link>https://ethanhistory.github.io/posts/list_and_tuple/</link>
+      <link>https://ethanhistory.github.io/posts/programming/list_and_tuple/</link>
       <pubDate>Tue, 07 Jun 2022 16:59:42 -0700</pubDate>
       
-      <guid>https://ethanhistory.github.io/posts/list_and_tuple/</guid>
+      <guid>https://ethanhistory.github.io/posts/programming/list_and_tuple/</guid>
       <description>Intro There are few primitive types, and lots of build-in types. However, only few types are frequently used in practice. It might be because other types only can be used in special cases but it is also true that I don&amp;rsquo;t know how and when to use them correctly. Tuple is one of such cases. When I code with Python, mostly I use List to contain sequenal values and objects, but there have been few cases when I used Tuple.</description>
     </item>
     
     <item>
       <title>Bit Operations</title>
-      <link>https://ethanhistory.github.io/posts/bit_operations/</link>
+      <link>https://ethanhistory.github.io/posts/programming/bit_operations/</link>
       <pubDate>Tue, 07 Jun 2022 11:45:19 -0700</pubDate>
       
-      <guid>https://ethanhistory.github.io/posts/bit_operations/</guid>
+      <guid>https://ethanhistory.github.io/posts/programming/bit_operations/</guid>
       <description>Intro Bit operation is very easy concept so it is hard to forget what bit operations are there and how they are working. However, I forgot the notation of these operations in Python while solving some algorithm problems, which is the reason I am organizing this post.
 Bit operations in Python  x &amp;laquo; y
 Returns x with the bits shifted to the left by y places (and new bits on the right-hand-side are zeros).</description>
