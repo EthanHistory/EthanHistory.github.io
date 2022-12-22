@@ -9,7 +9,16 @@
       <link>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 25 Sep 2022 12:17:55 -0700</lastBuildDate><atom:link href="https://ethanhistory.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2022 00:25:58 -0800</lastBuildDate><atom:link href="https://ethanhistory.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DeepLearning</title>
+      <link>https://ethanhistory.github.io/tags/deeplearning/</link>
+      <pubDate>Tue, 20 Dec 2022 00:25:58 -0800</pubDate>
+      
+      <guid>https://ethanhistory.github.io/tags/deeplearning/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>C&#43;&#43;</title>
       <link>https://ethanhistory.github.io/tags/c&#43;&#43;/</link>

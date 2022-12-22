@@ -12,10 +12,10 @@
     <lastBuildDate>Tue, 20 Dec 2022 00:25:58 -0800</lastBuildDate><atom:link href="https://ethanhistory.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RNN_cheatsheet</title>
-      <link>https://ethanhistory.github.io/posts/drafts/rnn_cheatsheet/</link>
+      <link>https://ethanhistory.github.io/posts/machine_learning/rnn_cheatsheet/</link>
       <pubDate>Tue, 20 Dec 2022 00:25:58 -0800</pubDate>
       
-      <guid>https://ethanhistory.github.io/posts/drafts/rnn_cheatsheet/</guid>
+      <guid>https://ethanhistory.github.io/posts/machine_learning/rnn_cheatsheet/</guid>
       <description>RNN structure (left) compact representation of RNN (right) unfolding version
 $$x_{i} : \text{i-th input, } o_i : \text{i-th label, } Net : \text{RNN block, } w_i : \text{i-th hidden state}$$
 What is RNN? RNN (Recurrent neural networks) is a class of ANN model designed for analyzing a sequence of input data. Due to the nature of recurrsive feedforward network where the previous input does influence the next hidden state value, RNN can theoratically exploit the previous context even far way from the current input in estimating output.</description>
