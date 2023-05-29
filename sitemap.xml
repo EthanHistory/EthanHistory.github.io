@@ -2,19 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ethanhistory.github.io/posts/statistics/chapter3/independence_of_events/</loc>
+    <lastmod>2023-05-25T20:34:35-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/</loc>
+    <lastmod>2023-05-25T20:34:35-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/tags/statistics-ch3/</loc>
+    <lastmod>2023-05-25T20:34:35-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/tags/</loc>
+    <lastmod>2023-05-25T20:34:35-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/</loc>
+    <lastmod>2023-05-25T20:34:35-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/chapter3/bayes_formula/</loc>
+    <lastmod>2023-05-25T20:34:22-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/chapter3/law_of_total_probability/</loc>
+    <lastmod>2023-05-25T20:29:08-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/chapter3/partition_of_sample_space/</loc>
+    <lastmod>2023-05-25T20:28:58-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/chapter3/the_multiplication_rule/</loc>
+    <lastmod>2023-05-25T20:28:41-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/chapter3/reduction_of_sample_space/</loc>
+    <lastmod>2023-05-25T20:28:24-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/chapter3/conditional_probability/</loc>
+    <lastmod>2023-05-25T20:25:26-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/chapter1/axioms_of_probability/</loc>
+    <lastmod>2023-05-24T10:16:49-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/tags/statistics-ch1/</loc>
+    <lastmod>2023-05-24T10:16:49-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/chapter1/sample_space_and_events/</loc>
+    <lastmod>2023-05-23T11:14:43-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/chapter1/exercise/</loc>
+    <lastmod>2023-05-23T09:42:12-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/linear_algebra/exercise/chapter5/</loc>
+    <lastmod>2023-05-12T16:02:06-07:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/math/linear_algebra_anton_ch_5/</loc>
+    <lastmod>2023-05-07T22:09:18+00:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-3/</loc>
+    <lastmod>2023-04-05T21:00:42+00:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-5/</loc>
+    <lastmod>2023-04-05T21:00:42+00:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-6/</loc>
+    <lastmod>2023-04-05T21:00:42+00:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-7/</loc>
+    <lastmod>2023-04-05T21:00:42+00:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-1~2/</loc>
+    <lastmod>2023-04-05T21:00:42+00:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/math/linear_algebra/</loc>
+    <lastmod>2023-01-30T05:57:36+00:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/tags/math/</loc>
+    <lastmod>2023-01-30T05:57:36+00:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/statistics/probability_and_inferential_statistics/</loc>
+    <lastmod>2023-01-17T23:14:34+00:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/tags/statistics/</loc>
+    <lastmod>2023-01-17T23:14:34+00:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/posts/computer_vision/transformation/</loc>
+    <lastmod>2022-12-29T19:44:33+00:00</lastmod>
+  </url><url>
+    <loc>https://ethanhistory.github.io/tags/computer-vision/</loc>
+    <lastmod>2022-12-29T19:44:33+00:00</lastmod>
+  </url><url>
     <loc>https://ethanhistory.github.io/tags/deeplearning/</loc>
     <lastmod>2022-12-20T00:25:58-08:00</lastmod>
   </url><url>
-    <loc>https://ethanhistory.github.io/</loc>
-    <lastmod>2022-12-20T00:25:58-08:00</lastmod>
-  </url><url>
-    <loc>https://ethanhistory.github.io/posts/</loc>
-    <lastmod>2022-12-20T00:25:58-08:00</lastmod>
-  </url><url>
     <loc>https://ethanhistory.github.io/posts/machine_learning/rnn_cheatsheet/</loc>
-    <lastmod>2022-12-20T00:25:58-08:00</lastmod>
-  </url><url>
-    <loc>https://ethanhistory.github.io/tags/</loc>
     <lastmod>2022-12-20T00:25:58-08:00</lastmod>
   </url><url>
     <loc>https://ethanhistory.github.io/tags/c&#43;&#43;/</loc>

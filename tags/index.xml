@@ -1,15 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on EthanHistory</title>
+    <title>Tags on Test</title>
     <link>https://ethanhistory.github.io/tags/</link>
-    <description>Recent content in Tags on EthanHistory</description>
+    <description>Recent content in Tags on Test</description>
     <image>
       <url>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Dec 2022 00:25:58 -0800</lastBuildDate><atom:link href="https://ethanhistory.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 20:34:35 -0700</lastBuildDate><atom:link href="https://ethanhistory.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>statistics-ch3</title>
+      <link>https://ethanhistory.github.io/tags/statistics-ch3/</link>
+      <pubDate>Thu, 25 May 2023 20:34:35 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/tags/statistics-ch3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statistics-ch1</title>
+      <link>https://ethanhistory.github.io/tags/statistics-ch1/</link>
+      <pubDate>Wed, 24 May 2023 10:16:49 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/tags/statistics-ch1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>https://ethanhistory.github.io/tags/math/</link>
+      <pubDate>Mon, 30 Jan 2023 05:57:36 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>https://ethanhistory.github.io/tags/statistics/</link>
+      <pubDate>Tue, 17 Jan 2023 23:14:34 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://ethanhistory.github.io/tags/computer-vision/</link>
+      <pubDate>Thu, 29 Dec 2022 19:44:33 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>DeepLearning</title>
       <link>https://ethanhistory.github.io/tags/deeplearning/</link>

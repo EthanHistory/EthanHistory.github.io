@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>statistics-ch3 on Test</title>
+    <link>https://ethanhistory.github.io/tags/statistics-ch3/</link>
+    <description>Recent content in statistics-ch3 on Test</description>
+    <image>
+      <url>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 25 May 2023 20:34:35 -0700</lastBuildDate><atom:link href="https://ethanhistory.github.io/tags/statistics-ch3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Independence of events</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/independence_of_events/</link>
+      <pubDate>Thu, 25 May 2023 20:34:35 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/independence_of_events/</guid>
+      <description>Two events $A$ and $B$ are called independent if $$ P(AB) = P(A)P(B) $$
+If two events are not independent, they are called dependent.
+ NOTE
+Mutually exclusiveness and independence is not the same. Mutually exclusiveness means that there is no intersection between two events, whereas independence means that either of event has no effect to the other.
+ Example In the experiment of drawing a card from an ordinary deck of 52 cards (4 types and 13 cards for each type), let $A$ and $B$ be the events of getting a heart and an ace, respectively.</description>
+    </item>
+    
+    <item>
+      <title>Bayes formula</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/bayes_formula/</link>
+      <pubDate>Thu, 25 May 2023 20:34:22 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/bayes_formula/</guid>
+      <description>Let $\{B_1, B_2, \dotso, B_n\}$ be a partition of the sample space $S$ of an experiment. If for $i = 1, 2, \dotso, n$, $P(B_i) \gt 0$, then for any event $A$ of $S$ with $P(A) \gt 0$,
+$$ P(B_k | A) = \frac{P(A|B_k)P(B_k)}{\sum^n_{i=1}P(A|B_i)P(B_i)} = \frac{P(A|B_k)P(B_k)}{P(A)} $$
+Example In a study conducted three years ago, 82% of the people in a randomly selected sample were found to have &amp;ldquo;good&amp;rdquo; financial credit ratings, while the remaining 18% were found to have &amp;ldquo;bad&amp;rdquo; financial credit ratings.</description>
+    </item>
+    
+    <item>
+      <title>Law of total probability</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/law_of_total_probability/</link>
+      <pubDate>Thu, 25 May 2023 20:29:08 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/law_of_total_probability/</guid>
+      <description>If $\{B_1, B_2, \dotso, B_n\}$ is a partition of the sample space of an experiment and $P(B_i) \gt 0$ for $i = 1, 2, \dotso, n$, then for any event $A$ of $S$, $$ P(A) = P(A|B_1)P(B_1) + P(A|B_2)P(B_2) + \dotsm + P(A|B_n)P(B_n) \\ = \sum^n_{i=1}P(A|B_i)P(B_i) $$
+Example An insurance company rents 35% of the cars for its customers from agency $\mathrm{I}$ and 65% from agency $\mathrm{II}$. If 8% of the cars of agency $\mathrm{I}$ and 5% of the cars of agency $\mathrm{II}$ break down during the rental periods, what is the probability that a car rented by this insurance company breaks down?</description>
+    </item>
+    
+    <item>
+      <title>Partition of sample space</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/partition_of_sample_space/</link>
+      <pubDate>Thu, 25 May 2023 20:28:58 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/partition_of_sample_space/</guid>
+      <description>Let $\{B_1, B_2, \dotso, B_n\}$ be a set of nonempty subsets of the sampe space $S$ of an experiment. If the events $B_1, B_2, \dotso, B_n$ are mutually exclusive and $\bigcup^n_{i=1} B_i = S$, the set is called a partition of $S$.</description>
+    </item>
+    
+    <item>
+      <title>The multiplication rule</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/the_multiplication_rule/</link>
+      <pubDate>Thu, 25 May 2023 20:28:41 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/the_multiplication_rule/</guid>
+      <description>For n events $\{A_i\}$, If $P(A_1A_2A_3 \dotsm A_{n-1}) \gt 0$, then $$ P(A_1A_2A_3 \dotsm A_n) = \\ P(A_1)P(A_2|A_1)P(A_3|A_1A_2) \dotsm P(A_n|A_1A_2A_3 \dotsm A_{n-1}) $$
+Example A consulting firm is awarded 43% of the contracts it bids on. Suppose that Nordulf works for a division of the firm that gets to do 15% of the projects contracted for. If Nordulf directs 35% of the projects submitted to his division, what percentage of all bids submitted by the firm will result in contracts for projects directed by Nordulf?</description>
+    </item>
+    
+    <item>
+      <title>Reduction of sample space</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/reduction_of_sample_space/</link>
+      <pubDate>Thu, 25 May 2023 20:28:24 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/reduction_of_sample_space/</guid>
+      <description>Let $B$ be an event of a sample space $S$ with $P(B) \gt 0$. For a subset $A$ of $B$, define $Q(A) = P(A|B)$.
+Then $Q$ is a function from the set of subsets of $B$ to [0, 1] and it satisties the axioms that probabilities do, and hence it is a probability function.
+Note that while $P$ is defined for all subsets of $S$, the probability function $Q$ is defined only for subsets of $B$.</description>
+    </item>
+    
+    <item>
+      <title>Conditional probability</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/conditional_probability/</link>
+      <pubDate>Thu, 25 May 2023 20:25:26 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/conditional_probability/</guid>
+      <description>If $P(B) \gt 0$, the conditional probability of $A$ given $B$, denoted by $P(A|B)$, is defined to be $P(A|B) = \frac{P(AB)}{P(B)}$.
+Example 1 From the set of all families with two children, a family is selected at random and is found to have a girl.
+What is the probability that the other child of the family is a girl?
+Assume that in a two-child family all sex distributions are equally probable.</description>
+    </item>
+    
+  </channel>
+</rss>

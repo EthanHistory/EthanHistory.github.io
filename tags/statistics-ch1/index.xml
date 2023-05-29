@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>statistics-ch1 on Test</title>
+    <link>https://ethanhistory.github.io/tags/statistics-ch1/</link>
+    <description>Recent content in statistics-ch1 on Test</description>
+    <image>
+      <url>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 24 May 2023 10:16:49 -0700</lastBuildDate><atom:link href="https://ethanhistory.github.io/tags/statistics-ch1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Axioms of probability</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter1/axioms_of_probability/</link>
+      <pubDate>Wed, 24 May 2023 10:16:49 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter1/axioms_of_probability/</guid>
+      <description>Let $S$ be the sample space of a random phenomenon. Suppose that to each event $A$ of $S$, a number denoted by $P(A)$ is associated with $A$. If $P$ satisfies the following axioms, then it is called a probability and the number $P(A)$ is said to be the probability of A
+ Axiom 1: $P(A) \ge 0$ Axiom 2: $P(S) = 1$ If $\{A_1, A_2, A_3, \dotso \}$ is a sequence of mutually exclusive events then $$ P \bigg( \bigcup^n_{i=1} A_i \bigg) = \sum^n_{i=1} P(A_i) \qquad (n = \infty) $$  </description>
+    </item>
+    
+    <item>
+      <title>Sample space and events</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter1/sample_space_and_events/</link>
+      <pubDate>Tue, 23 May 2023 11:14:43 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter1/sample_space_and_events/</guid>
+      <description>If the outcome of an experiment is not certain but all of its possible outcomes are predictable in advance, then the set of all these possible outcomes is called the sample space of the experiment and is usually denoted by $S$.
+  The sample space of an experiment consists of all possible outcomes of the experiment.
+  These outcomes called sample points or points.
+  Certain subsets of $S$ are referred to as events</description>
+    </item>
+    
+    <item>
+      <title>Exercise</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter1/exercise/</link>
+      <pubDate>Tue, 23 May 2023 09:42:12 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter1/exercise/</guid>
+      <description>Problem 1-2-13 When flipping a coin more than once, what experiment has a sample space defined by the following? $$ S = \{TT, HTT, THTT, HHTT, HHHTT, HTHTT, THHTT, \dotso\} $$
+Solution You can see the pattern in the sample space where there are two consecutive tails in the end of each outcomes. Therefore, the experiment is flipping a coin until two tails appear consecutively.
+Problem 1-2-15 A limousine that carries passengers from an airport to three different hotels just left the airport with two passengers.</description>
+    </item>
+    
+  </channel>
+</rss>

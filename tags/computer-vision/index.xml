@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Computer Vision on Test</title>
+    <link>https://ethanhistory.github.io/tags/computer-vision/</link>
+    <description>Recent content in Computer Vision on Test</description>
+    <image>
+      <url>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 29 Dec 2022 19:44:33 +0000</lastBuildDate><atom:link href="https://ethanhistory.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2D Projective Transformations</title>
+      <link>https://ethanhistory.github.io/posts/computer_vision/transformation/</link>
+      <pubDate>Thu, 29 Dec 2022 19:44:33 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/computer_vision/transformation/</guid>
+      <description>What is 2D Projective Transformations? 2D Projective Transformations is a group of linear transformations in projective space $P^2$. Each transformation is invariant on geometric properties.
+Prerequisites concepts  projective space homogeneous coordinates matrix multiplication degree of freedom  Hierarchy of transformations Note that transformations except projective can also be described via $2 \times 3$ matrix, instead of $3 \times 3$. It is because they are 2D planar transformation in Euclidean space which doesn&amp;rsquo;t require homogeneous coordinates.</description>
+    </item>
+    
+  </channel>
+</rss>

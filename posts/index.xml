@@ -1,15 +1,232 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on EthanHistory</title>
+    <title>Posts on Test</title>
     <link>https://ethanhistory.github.io/posts/</link>
-    <description>Recent content in Posts on EthanHistory</description>
+    <description>Recent content in Posts on Test</description>
     <image>
       <url>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Dec 2022 00:25:58 -0800</lastBuildDate><atom:link href="https://ethanhistory.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 20:34:35 -0700</lastBuildDate><atom:link href="https://ethanhistory.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Independence of events</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/independence_of_events/</link>
+      <pubDate>Thu, 25 May 2023 20:34:35 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/independence_of_events/</guid>
+      <description>Two events $A$ and $B$ are called independent if $$ P(AB) = P(A)P(B) $$
+If two events are not independent, they are called dependent.
+ NOTE
+Mutually exclusiveness and independence is not the same. Mutually exclusiveness means that there is no intersection between two events, whereas independence means that either of event has no effect to the other.
+ Example In the experiment of drawing a card from an ordinary deck of 52 cards (4 types and 13 cards for each type), let $A$ and $B$ be the events of getting a heart and an ace, respectively.</description>
+    </item>
+    
+    <item>
+      <title>Bayes formula</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/bayes_formula/</link>
+      <pubDate>Thu, 25 May 2023 20:34:22 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/bayes_formula/</guid>
+      <description>Let $\{B_1, B_2, \dotso, B_n\}$ be a partition of the sample space $S$ of an experiment. If for $i = 1, 2, \dotso, n$, $P(B_i) \gt 0$, then for any event $A$ of $S$ with $P(A) \gt 0$,
+$$ P(B_k | A) = \frac{P(A|B_k)P(B_k)}{\sum^n_{i=1}P(A|B_i)P(B_i)} = \frac{P(A|B_k)P(B_k)}{P(A)} $$
+Example In a study conducted three years ago, 82% of the people in a randomly selected sample were found to have &amp;ldquo;good&amp;rdquo; financial credit ratings, while the remaining 18% were found to have &amp;ldquo;bad&amp;rdquo; financial credit ratings.</description>
+    </item>
+    
+    <item>
+      <title>Law of total probability</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/law_of_total_probability/</link>
+      <pubDate>Thu, 25 May 2023 20:29:08 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/law_of_total_probability/</guid>
+      <description>If $\{B_1, B_2, \dotso, B_n\}$ is a partition of the sample space of an experiment and $P(B_i) \gt 0$ for $i = 1, 2, \dotso, n$, then for any event $A$ of $S$, $$ P(A) = P(A|B_1)P(B_1) + P(A|B_2)P(B_2) + \dotsm + P(A|B_n)P(B_n) \\ = \sum^n_{i=1}P(A|B_i)P(B_i) $$
+Example An insurance company rents 35% of the cars for its customers from agency $\mathrm{I}$ and 65% from agency $\mathrm{II}$. If 8% of the cars of agency $\mathrm{I}$ and 5% of the cars of agency $\mathrm{II}$ break down during the rental periods, what is the probability that a car rented by this insurance company breaks down?</description>
+    </item>
+    
+    <item>
+      <title>Partition of sample space</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/partition_of_sample_space/</link>
+      <pubDate>Thu, 25 May 2023 20:28:58 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/partition_of_sample_space/</guid>
+      <description>Let $\{B_1, B_2, \dotso, B_n\}$ be a set of nonempty subsets of the sampe space $S$ of an experiment. If the events $B_1, B_2, \dotso, B_n$ are mutually exclusive and $\bigcup^n_{i=1} B_i = S$, the set is called a partition of $S$.</description>
+    </item>
+    
+    <item>
+      <title>The multiplication rule</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/the_multiplication_rule/</link>
+      <pubDate>Thu, 25 May 2023 20:28:41 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/the_multiplication_rule/</guid>
+      <description>For n events $\{A_i\}$, If $P(A_1A_2A_3 \dotsm A_{n-1}) \gt 0$, then $$ P(A_1A_2A_3 \dotsm A_n) = \\ P(A_1)P(A_2|A_1)P(A_3|A_1A_2) \dotsm P(A_n|A_1A_2A_3 \dotsm A_{n-1}) $$
+Example A consulting firm is awarded 43% of the contracts it bids on. Suppose that Nordulf works for a division of the firm that gets to do 15% of the projects contracted for. If Nordulf directs 35% of the projects submitted to his division, what percentage of all bids submitted by the firm will result in contracts for projects directed by Nordulf?</description>
+    </item>
+    
+    <item>
+      <title>Reduction of sample space</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/reduction_of_sample_space/</link>
+      <pubDate>Thu, 25 May 2023 20:28:24 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/reduction_of_sample_space/</guid>
+      <description>Let $B$ be an event of a sample space $S$ with $P(B) \gt 0$. For a subset $A$ of $B$, define $Q(A) = P(A|B)$.
+Then $Q$ is a function from the set of subsets of $B$ to [0, 1] and it satisties the axioms that probabilities do, and hence it is a probability function.
+Note that while $P$ is defined for all subsets of $S$, the probability function $Q$ is defined only for subsets of $B$.</description>
+    </item>
+    
+    <item>
+      <title>Conditional probability</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter3/conditional_probability/</link>
+      <pubDate>Thu, 25 May 2023 20:25:26 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter3/conditional_probability/</guid>
+      <description>If $P(B) \gt 0$, the conditional probability of $A$ given $B$, denoted by $P(A|B)$, is defined to be $P(A|B) = \frac{P(AB)}{P(B)}$.
+Example 1 From the set of all families with two children, a family is selected at random and is found to have a girl.
+What is the probability that the other child of the family is a girl?
+Assume that in a two-child family all sex distributions are equally probable.</description>
+    </item>
+    
+    <item>
+      <title>Axioms of probability</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter1/axioms_of_probability/</link>
+      <pubDate>Wed, 24 May 2023 10:16:49 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter1/axioms_of_probability/</guid>
+      <description>Let $S$ be the sample space of a random phenomenon. Suppose that to each event $A$ of $S$, a number denoted by $P(A)$ is associated with $A$. If $P$ satisfies the following axioms, then it is called a probability and the number $P(A)$ is said to be the probability of A
+ Axiom 1: $P(A) \ge 0$ Axiom 2: $P(S) = 1$ If $\{A_1, A_2, A_3, \dotso \}$ is a sequence of mutually exclusive events then $$ P \bigg( \bigcup^n_{i=1} A_i \bigg) = \sum^n_{i=1} P(A_i) \qquad (n = \infty) $$  </description>
+    </item>
+    
+    <item>
+      <title>Sample space and events</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter1/sample_space_and_events/</link>
+      <pubDate>Tue, 23 May 2023 11:14:43 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter1/sample_space_and_events/</guid>
+      <description>If the outcome of an experiment is not certain but all of its possible outcomes are predictable in advance, then the set of all these possible outcomes is called the sample space of the experiment and is usually denoted by $S$.
+  The sample space of an experiment consists of all possible outcomes of the experiment.
+  These outcomes called sample points or points.
+  Certain subsets of $S$ are referred to as events</description>
+    </item>
+    
+    <item>
+      <title>Exercise</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter1/exercise/</link>
+      <pubDate>Tue, 23 May 2023 09:42:12 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter1/exercise/</guid>
+      <description>Problem 1-2-13 When flipping a coin more than once, what experiment has a sample space defined by the following? $$ S = \{TT, HTT, THTT, HHTT, HHHTT, HTHTT, THHTT, \dotso\} $$
+Solution You can see the pattern in the sample space where there are two consecutive tails in the end of each outcomes. Therefore, the experiment is flipping a coin until two tails appear consecutively.
+Problem 1-2-15 A limousine that carries passengers from an airport to three different hotels just left the airport with two passengers.</description>
+    </item>
+    
+    <item>
+      <title>Chapter5</title>
+      <link>https://ethanhistory.github.io/posts/linear_algebra/exercise/chapter5/</link>
+      <pubDate>Fri, 12 May 2023 16:02:06 -0700</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/linear_algebra/exercise/chapter5/</guid>
+      <description>Problem 1 Solution  According to the defnition of         
+&#39; eigenvalue and eigenvector   tippy(&#39;.tippy_tooltip_href&#39;, { content: &#39;Loading...&#39;, animation: &#39;scale&#39;, allowHTML: true, hideOnClick: false, maxWidth: 500, maxHeight: &#39;none&#39;, onMount: (instance) = { renderMathInElement(instance.popper, { delimiters: [ {left: &#34;$$&#34;, right: &#34;$$&#34;, display: true}, {left: &#34;\\(&#34;, right: &#34;\\)&#34;, display: false}, {left: &#34;$&#34;, right: &#34;$&#34;, display: false}, ] }); } });  , $$ Ax = \begin{bmatrix} 1 &amp;amp;&amp;amp; 2 \\ 3 &amp;amp;&amp;amp; 2 \end{bmatrix} \begin{bmatrix} 1 \\ -1 \end{bmatrix} = \begin{bmatrix} -1 \\ 1 \end{bmatrix} = -1 \begin{bmatrix} 1 \\ -1 \end{bmatrix} $$ Therefore, the corresponding eigenvalue $\lambda$ is -1  Problem 5 (a) Solution According to</description>
+    </item>
+    
+    <item>
+      <title>Linear_algebra_anton_ch_5</title>
+      <link>https://ethanhistory.github.io/posts/math/linear_algebra_anton_ch_5/</link>
+      <pubDate>Sun, 07 May 2023 22:09:18 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/math/linear_algebra_anton_ch_5/</guid>
+      <description>Dimension All bases for a finite-dimensional vector space have the same number of vectors.
+Let $V$ be an n-dimensional vector space, and let $\{v_1, v_2, \dotso, v_n \} be any basis. (a) If a set in $V$ has more than $n$ vectors, then it is linearly dependent. (b) If a set in $V$ has fewer than $n$ vectors, then it does not span V.
+The dimension of a finite-dimensional vector space $V$ is denoted by $dim(V)$ and is defined to be the number of vectors in a basis for $V$.</description>
+    </item>
+    
+    <item>
+      <title>Statistics Ghahramani Ch 1.3</title>
+      <link>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-3/</link>
+      <pubDate>Wed, 05 Apr 2023 21:00:42 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-3/</guid>
+      <description>Axioms  $P(A) \ge 0$ $P(S) = 1$ $P(\bigcup_{i=1}^\infty A_i) = \sum_{i=1}^{\infty} P(A)$ if $A_i$ and $A_j$ are mutually exclusive for any $i$ and $j$  Theorems   $P(A^c) = 1 - P(A)$
+  $P(B - A) = P(BA^c) = P(B) - P(A)$ if $A \le B$
+  $P(A \cup B) = P(A) + P(B) - P(AB)$
+  Inclusion-Exclusion Principle $$ P(\bigcup_{i=1}^n A_i) = \sum_{i=1}^n P(A_i) - \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} P(A_i A_j) + \sum_{i=1}^{n-2} \sum_{j=i+1}^{n-1} \sum_{k=j+1}^{n} P(A_i A_j A_k) - &amp;hellip; + (-1)^{n-1} P(A_1 A_2 &amp;hellip; A_n) $$</description>
+    </item>
+    
+    <item>
+      <title>Statistics Ghahramani Ch 1.5</title>
+      <link>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-5/</link>
+      <pubDate>Wed, 05 Apr 2023 21:00:42 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-5/</guid>
+      <description>increasing / decreasing sequence  increasing sequence $E_n$ $$ E_n \subseteq E_{n+1} \text{ for all } n \ge 1 $$  For an increasing sequence of events, limitation of the sequence is defined as union of all events in the sequence. $$ \lim_{n \to \infty} E_n = \bigcup_{i=1}^{\infty} E_i $$
+ decreasing sequence $E_n$ $$ E_n \supseteq E_{n+1} \text{ for all } n \ge 1 $$  Similiary, for an decreasing sequence of events, limitation of the sequence is defined as intersection of all events $$ \lim_{n \to \infty} E_n = \bigcap_{i=1}^{\infty} E_i $$</description>
+    </item>
+    
+    <item>
+      <title>Statistics Ghahramani Ch 1.6</title>
+      <link>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-6/</link>
+      <pubDate>Wed, 05 Apr 2023 21:00:42 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-6/</guid>
+      <description>Probabilities 0 and 1 Let&amp;rsquo;s say $P(E) = 1$, and $P(F) = 0$
+It is not correct to say that E is the sample space S and F is the empty set. For example, in selecting real number from an sample space (0, 1),
+the probability of selecting any float number t is 0 and the probability of selecting any other float numbers other than the number is 1.
+Both event are not empty set nor sample space.</description>
+    </item>
+    
+    <item>
+      <title>Statistics Ghahramani Ch 1.7</title>
+      <link>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-7/</link>
+      <pubDate>Wed, 05 Apr 2023 21:00:42 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-7/</guid>
+      <description>randomly selected from an interval A point is said to be randomly selected from an interval (a, b) if any two subintervals of (a, b) that have the same length are equally likely to include the point. The probability associated with the event that the subinterval $(\alpha, \beta)$ contains the point is defined to be $(\beta-\alpha)/(b-a)$</description>
+    </item>
+    
+    <item>
+      <title>Statistics_Ghahramani</title>
+      <link>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-1~2/</link>
+      <pubDate>Wed, 05 Apr 2023 21:00:42 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/statistics_ghahramani1-1~2/</guid>
+      <description>Definition Mathmatical foundation of probability Sample space Sample(Point) Event
+  Remark Different manifestations of outcomes of an experiment might lead to different representations for the sample space of the same experiment. -&amp;gt; you can represent sample space to be more comfort looking.
+  What does &amp;ldquo;event occurs&amp;rdquo; mean? -&amp;gt; the outcome of an experiment belongs to an event E, event E has occurred.
+ Concepts in sets applied to events   Subset</description>
+    </item>
+    
+    <item>
+      <title>linear_algebra</title>
+      <link>https://ethanhistory.github.io/posts/math/linear_algebra/</link>
+      <pubDate>Mon, 30 Jan 2023 05:57:36 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/math/linear_algebra/</guid>
+      <description>Linearity Linearity is the property of a mathematical relationship (function) that can be graphically represented as a straight line. In mathmatics, a linear map (function) $f(x)$ is a function that satisfies the two properties
+$$ f(x+y) = f(x) + f(y) \quad \text{additivity} $$
+$$ f(\alpha x) = \alpha f(x) \quad \text{homogeneity} $$
+However, not every term linear doesn&amp;rsquo;t mean that it satisfies thses two properties. Sometimes, we call something linear because it can be represented as a straight line.</description>
+    </item>
+    
+    <item>
+      <title>Probability_and_inferential_statistics</title>
+      <link>https://ethanhistory.github.io/posts/statistics/probability_and_inferential_statistics/</link>
+      <pubDate>Tue, 17 Jan 2023 23:14:34 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/probability_and_inferential_statistics/</guid>
+      <description>Introduction This is some of the topics in USF (University of San Francisco) MS Data Science prerequisite requirements of Probability and Inferential Statistics.
+Law of Total Probability Definition A fundamental rule relating marginal probabilities to conditional probabilities. In mathematical statement, it looks simple and intuitive: For any event A, $$ P(A) = \sum_n{P(A \cap B_n)} = \sum_n{P(A|B_n)P(B_n)}$$ , where ${B_n : n = 1, 2, 3, &amp;hellip;}$ is a finite partition of a sample space.</description>
+    </item>
+    
+    <item>
+      <title>2D Projective Transformations</title>
+      <link>https://ethanhistory.github.io/posts/computer_vision/transformation/</link>
+      <pubDate>Thu, 29 Dec 2022 19:44:33 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/computer_vision/transformation/</guid>
+      <description>What is 2D Projective Transformations? 2D Projective Transformations is a group of linear transformations in projective space $P^2$. Each transformation is invariant on geometric properties.
+Prerequisites concepts  projective space homogeneous coordinates matrix multiplication degree of freedom  Hierarchy of transformations Note that transformations except projective can also be described via $2 \times 3$ matrix, instead of $3 \times 3$. It is because they are 2D planar transformation in Euclidean space which doesn&amp;rsquo;t require homogeneous coordinates.</description>
+    </item>
+    
     <item>
       <title>RNN_cheatsheet</title>
       <link>https://ethanhistory.github.io/posts/machine_learning/rnn_cheatsheet/</link>

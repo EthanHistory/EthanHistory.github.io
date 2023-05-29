@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Statistics on Test</title>
+    <link>https://ethanhistory.github.io/tags/statistics/</link>
+    <description>Recent content in Statistics on Test</description>
+    <image>
+      <url>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 17 Jan 2023 23:14:34 +0000</lastBuildDate><atom:link href="https://ethanhistory.github.io/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Probability_and_inferential_statistics</title>
+      <link>https://ethanhistory.github.io/posts/statistics/probability_and_inferential_statistics/</link>
+      <pubDate>Tue, 17 Jan 2023 23:14:34 +0000</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/probability_and_inferential_statistics/</guid>
+      <description>Introduction This is some of the topics in USF (University of San Francisco) MS Data Science prerequisite requirements of Probability and Inferential Statistics.
+Law of Total Probability Definition A fundamental rule relating marginal probabilities to conditional probabilities. In mathematical statement, it looks simple and intuitive: For any event A, $$ P(A) = \sum_n{P(A \cap B_n)} = \sum_n{P(A|B_n)P(B_n)}$$ , where ${B_n : n = 1, 2, 3, &amp;hellip;}$ is a finite partition of a sample space.</description>
+    </item>
+    
+  </channel>
+</rss>
