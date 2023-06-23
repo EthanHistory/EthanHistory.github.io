@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>statistics-ch6 on Test</title>
+    <link>https://ethanhistory.github.io/tags/statistics-ch6/</link>
+    <description>Recent content in statistics-ch6 on Test</description>
+    <image>
+      <url>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ethanhistory.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 23 Jun 2023 13:14:44 +0900</lastBuildDate><atom:link href="https://ethanhistory.github.io/tags/statistics-ch6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Variance of continuous random variable</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter6/variance_of_continuous_random_variable/</link>
+      <pubDate>Fri, 23 Jun 2023 13:14:44 +0900</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter6/variance_of_continuous_random_variable/</guid>
+      <description>Definition If $X$ is a continuous random variable with $E(X) = \mu$, then $Var(X)$ and $\sigma_X$, called the variance and standard deviation of $X$, respectively, are defined by $$ Var(X) = E[(X-\mu)^2] = \int_{-\infty}^{\infty} (x-\mu)^2 f(x) dx \\ \sigma_X = \sqrt{E[(X-\mu)^2]} $$</description>
+    </item>
+    
+    <item>
+      <title>Expectation of continuous random variable</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter6/expectation_of_continuous_random_variable/</link>
+      <pubDate>Fri, 23 Jun 2023 13:14:32 +0900</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter6/expectation_of_continuous_random_variable/</guid>
+      <description>Definition If $X$ is a continuous random variable with probability density function $f$, the expected value of $X$ is defined by $$ E(X) = \int_{-\infty}^{\infty} xf(x)dx $$
+Expectation using distribution function and probability For any continuous random variable $X$ with distribution function $F$ and probability density function $f$, $$ E(X) = \int_0^{\infty} \big[ 1 - F(t) \big] dt - \int_0^{\infty} F(-t)dt = \int_0^{\infty} P(X \gt t) dt - \int_0^{\infty} P(X \le -t)dt $$</description>
+    </item>
+    
+    <item>
+      <title>Density function of function</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter6/density_function_of_function/</link>
+      <pubDate>Thu, 22 Jun 2023 14:43:56 +0900</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter6/density_function_of_function/</guid>
+      <description>Suppose that $f$, the probability density function of a random variable $X$, is known but the probability density function of $h(X)$, for some function of $X$, is needed.
+There are two common methods for the evaluation of the probability density function of $h(X)$
+the method of distribution functions To calculate $P(h(X) \le t)$,
+ Find a set $E$ for which $h(X) \le t$ if and only if $X \in E$ Compute $P(X \in E)$ from the distribution function of $X$ Do differentiation on $P(h(X) \le t)$  the method of transformations In this method, we find the pdf of $h(X)$ without obtaining its distribution function.</description>
+    </item>
+    
+    <item>
+      <title>Continuous random variable and probability density function</title>
+      <link>https://ethanhistory.github.io/posts/statistics/chapter6/continuous_random_variable_and_probability_density_function/</link>
+      <pubDate>Thu, 22 Jun 2023 13:14:39 +0900</pubDate>
+      
+      <guid>https://ethanhistory.github.io/posts/statistics/chapter6/continuous_random_variable_and_probability_density_function/</guid>
+      <description>Definition Let $X$ be a random variable. Suppose that there exists a nonnegative real-value function $f : R \rightarrow [0, \infty)$ such that for any subset of real numbers $A$ that can be constructed from intervals by a countable number of set operations, $$ P(X \in A) = \int_{A} f(x)dx $$
+Here, f is called the probability density function of $X$.
+Properties of probability density function  $F(t) = \int_{-\infty}^t f(x)dx$ $\int_{-\infty}^{\infty} f(x)dx = 1$ If f is continuous, then $F&amp;rsquo;(x) = f(x)$ For real numbers $a \le b$, $P(a \le X \le b) = P(a \lt X \le b) = P(a \le X \lt b) = P(a \lt X \lt b) = \int_a^b f(t) dt$  Example (example 6.</description>
+    </item>
+    
+  </channel>
+</rss>
