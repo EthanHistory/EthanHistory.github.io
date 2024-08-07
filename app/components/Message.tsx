@@ -13,10 +13,9 @@ const Message: React.FC<MessageProps> = ({ text }) => {
       <CardBody>
         <div className="flex items-center space-x-4">
           <Avatar
-            src="/inseong_avatar.jpg" // Use your avatar path
+            src="/inseong_avatar.jpg"
             color="primary"
             radius="md"
-            // className="w-12 h-12 text-tiny"
           />
           <div className="message-text">
             <Typewriter
