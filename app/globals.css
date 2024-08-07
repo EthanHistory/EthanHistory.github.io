@@ -31,3 +31,34 @@ body {
     text-wrap: balance;
   }
 }
+
+.content--canvas {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden;
+}
+
+/* styles/globals.css */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.message-card {
+  margin-bottom: 1rem;
+}
+
+.message-text {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.message-card .nextui-avatar {
+  width: 3rem;
+  height: 3rem;
+}
+
