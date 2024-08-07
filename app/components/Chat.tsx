@@ -8,7 +8,7 @@ const Chat = () => {
   const [messages, setMessages] = useState<string[]>([]);
 
   useEffect(() => {
-    setMessages(["Hi, This is Inseong Han. Please ask about me!"]);
+    setMessages(["Hi, I am Inseong Han, a Gen AI/ML Engineer. Please ask about me!"]);
   }, []);
 
   return (

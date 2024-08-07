@@ -1,4 +1,3 @@
-// components/Chat.tsx
 'use client';
 
 import { Card, Button, CardBody } from '@nextui-org/react';
