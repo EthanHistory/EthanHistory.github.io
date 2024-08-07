@@ -11,7 +11,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen">
+    <div className="dark relative min-h-screen">
       <Head>
         <title>Home</title>
       </Head>
