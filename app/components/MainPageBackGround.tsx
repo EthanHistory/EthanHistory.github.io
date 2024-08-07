@@ -11,7 +11,7 @@ const fadeIn = {
 };
 
 const MainPageBackGround = () => {
-  const buttonLabels = ['Button 1', 'Button 2', 'Button 3', 'Button 4', 'Button 5'];
+  const buttonLabels = ['Summary', 'Education', 'Projects', 'Job Ex', 'Contact'];
 
   return (
     <div className="absolute inset-0 flex flex-col items-center justify-center z-10">

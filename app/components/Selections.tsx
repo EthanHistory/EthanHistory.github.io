@@ -9,11 +9,13 @@ interface SelectionsProps {
 
 const Selections: React.FC<SelectionsProps> = ({ buttons }) => {
   return (
-    <Card>
+    <Card isBlurred>
       <CardBody>
-        {buttons.map((buttonText, index) => (
-            <Button>{buttonText}</Button>
-        ))}
+        <div className="grid grid-cols-5 gap-4">
+          {buttons.map((buttonText, index) => (
+            <Button key={index} variant="flat" className="w-full">{buttonText}</Button>
+          ))}
+        </div>
       </CardBody>
     </Card>
   );
