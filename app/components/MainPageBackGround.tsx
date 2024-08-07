@@ -3,6 +3,7 @@
 
 import { motion } from 'framer-motion';
 import Chat from './Chat';
+import Selections from './Selections';
 
 const fadeIn = {
   initial: { opacity: 0 },
@@ -10,6 +11,8 @@ const fadeIn = {
 };
 
 const MainPageBackGround = () => {
+  const buttonLabels = ['Button 1', 'Button 2', 'Button 3', 'Button 4', 'Button 5'];
+
   return (
     <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
       <motion.h2
@@ -22,6 +25,7 @@ const MainPageBackGround = () => {
       </motion.h2>
       <div className="w-full max-w-xl z-20">
         <Chat />
+        <Selections buttons={buttonLabels} />
       </div>
       <div className="absolute bottom-4 right-4 z-30 text-gray-500 text-sm">
         <a
