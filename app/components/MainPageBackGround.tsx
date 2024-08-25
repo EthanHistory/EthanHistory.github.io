@@ -29,11 +29,11 @@ const MainPageBackGround = () => {
               as="button"
               className="transition-transform"
               color="secondary"
-              name="Jason Hughes"
-              size="sm"
+              name="Inseong Han"
+              size="md"
               src="/inseong_avatar.jpg"
           />
-          <p className="font-bold text-inherit">Inseong Han</p>
+          <p className="font-bold text-white">Inseong Han</p>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
