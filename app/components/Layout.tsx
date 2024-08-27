@@ -1,15 +1,12 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import Head from 'next/head';
+import Script from 'next/script';
+import { ReactNode } from 'react';
 import { useState, useEffect } from 'react';
 import { Button, Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Avatar } from '@nextui-org/react';
 
-const fadeIn = {
-  initial: { opacity: 0 },
-  animate: { opacity: 1, transition: { duration: 1.5 } },
-};
-
-const MainPageBackGround = () => {
+const Layout = ({ children }: { children: ReactNode }) => {
   const [mute, setMute] = useState(true);
 
   useEffect(() => {
@@ -20,7 +17,25 @@ const MainPageBackGround = () => {
   }, [mute]);
 
   return (
-    <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
+    <div className="dark relative min-h-screen">
+      <Head>
+        <title>Home</title>
+      </Head>
+      <Script src="/js/util.js" strategy="beforeInteractive" />
+      <Script src="/js/noise.min.js" strategy="beforeInteractive" />
+      <Script
+        src="/js/swirl.js"
+        strategy="afterInteractive"
+        onLoad={() => {
+          console.log('swirl.js script loaded');
+          if (typeof window.setup === 'function') {
+            window.setup();
+          }
+        }}
+      />
+      <div className="absolute inset-0 content--canvas z-0">
+        {/* Canvas will be here */}
+      </div>
       {/* Navbar */}
       <Navbar isBordered isBlurred className="fixed top-0 left-0 w-full z-50 flex items-center">
         <NavbarBrand className='space-x-4'>
@@ -36,6 +51,13 @@ const MainPageBackGround = () => {
           <p className="font-bold text-white">Inseong Han</p>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
+          <NavbarItem>
+            <Button color="secondary" variant="ghost">
+              <Link color="foreground" href="/resume">
+                Resume
+              </Link>
+            </Button>
+          </NavbarItem>
           <NavbarItem>
             <Button color="secondary" variant="ghost">
               <Link color="foreground" href="#">
@@ -75,38 +97,18 @@ const MainPageBackGround = () => {
         </NavbarContent>
       </Navbar>
 
-      {/* Main Content */}
+      {/* Background Music */}
       <audio id="background-music" loop>
         <source src="/sound/space_ambient.mp3" type="audio/mp3" />
         Your browser does not support the audio element.
       </audio>
-      <motion.h2
-        className="text-center text-8xl font-bold text-white"
-        initial="initial"
-        animate="animate"
-        variants={fadeIn}
-      >
-        Gen AI Engineer
-      </motion.h2>
-      <motion.p
-        className="text-center text-2xl text-gray-500 mt-4"
-        initial="initial"
-        animate="animate"
-        variants={fadeIn}
-      >
-        Python🐍 | Pytorch🔥 | HuggingFace🤗 | LangChain 🔗🦜
-      </motion.p>
-      <div className="absolute bottom-4 right-4 text-gray-500 text-sm">
-        <a
-          href="https://github.com/crnacura/AmbientCanvasBackgrounds"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Background effect by crnacura
-        </a>
-      </div>
+
+      {/* Main Content */}
+      <main className="absolute inset-0 flex flex-col items-center justify-center z-10">
+        {children}
+      </main>
     </div>
   );
 };
 
-export default MainPageBackGround;
+export default Layout;

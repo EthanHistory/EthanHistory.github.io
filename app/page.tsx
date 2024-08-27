@@ -1,37 +1,42 @@
 'use client';
 
-import Head from 'next/head';
-import Script from 'next/script';
-import { useEffect } from 'react';
-import MainPageBackGround from '@/app/components/MainPageBackGround';
+import { motion } from 'framer-motion';
+import Layout from '@/app/components/Layout';
+
+const fadeIn = {
+  initial: { opacity: 0 },
+  animate: { opacity: 1, transition: { duration: 1.5 } },
+};
 
 const Home = () => {
-  useEffect(() => {
-    console.log('Home component mounted');
-  }, []);
-
   return (
-    <div className="dark relative min-h-screen">
-      <Head>
-        <title>Home</title>
-      </Head>
-      <Script src="/js/util.js" strategy="beforeInteractive" />
-      <Script src="/js/noise.min.js" strategy="beforeInteractive" />
-      <Script
-        src="/js/swirl.js"
-        strategy="afterInteractive"
-        onLoad={() => {
-          console.log('swirl.js script loaded');
-          if (typeof window.setup === 'function') {
-            window.setup();
-          }
-        }}
-      />
-      <div className="absolute inset-0 content--canvas z-0">
-        {/* Canvas will be here */}
+    <Layout>
+      <motion.h2
+        className="text-center text-8xl font-bold text-white"
+        initial="initial"
+        animate="animate"
+        variants={fadeIn}
+      >
+        Gen AI Engineer
+      </motion.h2>
+      <motion.p
+        className="text-center text-2xl text-gray-500 mt-4"
+        initial="initial"
+        animate="animate"
+        variants={fadeIn}
+      >
+        Python🐍 | Pytorch🔥 | HuggingFace🤗 | LangChain 🔗🦜
+      </motion.p>
+      <div className="absolute bottom-4 right-4 text-gray-500 text-sm">
+        <a
+          href="https://github.com/crnacura/AmbientCanvasBackgrounds"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Background effect by crnacura
+        </a>
       </div>
-      <MainPageBackGround />
-    </div>
+    </Layout>
   );
 };
 
