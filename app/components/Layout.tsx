@@ -52,6 +52,20 @@ const Layout = ({ children }: { children: ReactNode }) => {
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
+            <Link color="foreground" href="/">
+              <Button
+                isIconOnly
+                className="flex"
+                >
+                <img
+                  src={"/icons/home.svg"}
+                  alt={"home"}
+                  className="w-6 h-6"
+                  />
+              </Button>
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
             <Button color="secondary" variant="ghost">
               <Link color="foreground" href="/resume">
                 Resume
