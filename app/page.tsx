@@ -1,38 +1,33 @@
 'use client';
 
-import Head from 'next/head';
-import Script from 'next/script';
-import { useEffect } from 'react';
-import MainPageBackGround from '@/app/components/MainPageBackGround';
+import { motion } from 'framer-motion';
+import Home from "@/app/components/Home";
+import Resume from "@/app/components/Resume";
+import Projects from "@/app/components/Projects";
+import Navigationbar from '@/app/components/Navigationbar';
+import { useState } from 'react';
 
-const Home = () => {
-  useEffect(() => {
-    console.log('Home component mounted');
-  }, []);
+const fadeIn = {
+  initial: { opacity: 0 },
+  animate: { opacity: 1, transition: { duration: 1.5 } },
+};
+
+const App = () => {
+  const [page, setPage] = useState('Home');
 
   return (
-    <div className="dark relative min-h-screen">
-      <Head>
-        <title>Home</title>
-      </Head>
-      <Script src="/js/util.js" strategy="beforeInteractive" />
-      <Script src="/js/noise.min.js" strategy="beforeInteractive" />
-      <Script
-        src="/js/swirl.js"
-        strategy="afterInteractive"
-        onLoad={() => {
-          console.log('swirl.js script loaded');
-          if (typeof window.setup === 'function') {
-            window.setup();
-          }
-        }}
-      />
-      <div className="absolute inset-0 content--canvas z-0">
-        {/* Canvas will be here */}
-      </div>
-      <MainPageBackGround />
-    </div>
+    <>
+      {/* Pass setPage to Navigationbar to allow page switching */}
+      <Navigationbar setPage={setPage} />
+
+      {/* Conditionally render components based on the 'page' state */}
+      <motion.div key={page} variants={fadeIn} initial="initial" animate="animate">
+        {page === 'Home' && <Home />}
+        {page === 'Resume' && <Resume />}
+        {page === 'Projects' && <Projects />}
+      </motion.div>
+    </>
   );
 };
 
-export default Home;
+export default App;
