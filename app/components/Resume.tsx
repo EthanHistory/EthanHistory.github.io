@@ -8,10 +8,8 @@ import { useState } from 'react';
 import { pdfjs, Document, Page } from 'react-pdf';
 import {ScrollShadow} from "@nextui-org/react";
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.mjs',
-  import.meta.url,
-).toString();
+// https://github.com/wojtekmaj/react-pdf/issues/1855
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
 
 const Resume = () => {
