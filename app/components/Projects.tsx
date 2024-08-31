@@ -30,9 +30,9 @@ const Projects = () => {
             theme: "dark",
             summary: (
                 <p>
-                    RehearsAI is an innovative web application built with Next.js that revolutionizes the way you prepare for behavioral interviews. With its AI-driven mock interviews, you can practice in a realistic environment with voice interaction, experiencing responses in as little as 2-3 seconds. The platform allows you to pause and resume interviews at any time and offers customization options for your name, job description, and interview duration, up to 10 minutes. After each session, you'll receive detailed feedback, including an overall review, specific comments, and access to voice recordings for thorough preparation.
+                    RehearsAI is an innovative web application built with Next.js that revolutionizes the way you prepare for behavioral interviews. With its AI-driven mock interviews, you can practice in a realistic environment with voice interaction, experiencing responses in as little as 2-3 seconds. The platform allows you to pause and resume interviews at any time and offers customization options for your name, job description, and interview duration, up to 10 minutes. After each session, you&apos;ll receive detailed feedback, including an overall review, specific comments, and access to voice recordings for thorough preparation.
                 </p>
-            ),
+            ),            
             youtube: "https://www.youtube.com/watch?v=cV3pxeGaZ7U&t=8s"
         },
         {
@@ -46,10 +46,9 @@ const Projects = () => {
                     Camera calibration involves estimating parameters related to the transformation in the pinhole camera model. 
                     This includes intrinsic and extrinsic camera parameters, which are essential for accurate image analysis and computer vision tasks.
                 </p>
-            ),  // Wrap summary in <p> tag
+            ),
             github: "https://github.com/EthanHistory/Camera-Calibration/tree/main"
         }
-        // Add more items as needed
     ];
 
     const cardVariants = {
