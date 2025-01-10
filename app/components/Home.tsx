@@ -16,7 +16,7 @@ const Home = () => {
         animate="animate"
         variants={fadeIn}
       >
-        Gen AI Engineer
+        Data Scientist | ML Engineer
       </motion.h2>
       <motion.p
         className="text-center text-2xl text-gray-500 mt-4"
@@ -24,7 +24,7 @@ const Home = () => {
         animate="animate"
         variants={fadeIn}
       >
-        Python🐍 | Pytorch🔥 | HuggingFace🤗 | LangChain 🔗🦜
+        AI Application 🤖 | ML/Dev Ops 🚀 | Agile 🎯 | System Design ⚖️
       </motion.p>
       <div className="absolute bottom-4 right-4 text-gray-500 text-sm">
         <a
